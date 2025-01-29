@@ -12,3 +12,7 @@ Result Filters: Execute any result filters before the view is rendered.
 View Rendering: Render the view and generate the HTML response.
 Response Sending: Send the response to the browser.
 End Request: Perform any cleanup tasks after the request is completed.
+
+
+What is Model Binding in ASP.NET MVC?
+Answer: Model binding in ASP.NET MVC maps incoming HTTP request data (like form values or query strings) to action method parameters or model properties automatically. It allows easy extraction of data from requests into strongly-typed objects, reducing the need for manual parsing.

@@ -16,3 +16,12 @@ End Request: Perform any cleanup tasks after the request is completed.
 
 What is Model Binding in ASP.NET MVC?
 Answer: Model binding in ASP.NET MVC maps incoming HTTP request data (like form values or query strings) to action method parameters or model properties automatically. It allows easy extraction of data from requests into strongly-typed objects, reducing the need for manual parsing.
+
+
+How would you handle errors in ASP.NET MVC?
+Answer: You can handle errors in MVC using:
+
+Custom Error Pages: Configure customErrors in web.config.
+Try-Catch: Use try-catch blocks in action methods.
+Exception Filters: Handle exceptions globally via IExceptionFilter.
+Error Handling in Views: Use @if (Request.IsAjaxRequest()) to handle errors in AJAX calls.
